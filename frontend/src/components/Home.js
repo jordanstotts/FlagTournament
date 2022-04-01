@@ -27,7 +27,7 @@ const Home = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav navbar>
               <NavItem className="homeNavDropdown">
-                <NavLink id="dropdownWords" href="/components/">Player Bios</NavLink>
+                <NavLink id="dropdownWords" href="/PlayerBios">Player Bios</NavLink>
               </NavItem>
               <NavItem className="homeNavDropdown">
                 <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
