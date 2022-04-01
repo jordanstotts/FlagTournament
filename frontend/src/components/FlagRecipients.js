@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/FlagRecipients.css";
 import SiteNavBar from "./SiteNavBar";
 import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
+import Scorecard1 from "./scorecardModals/Scorecard1";
+import Scorecard2 from "./scorecardModals/Scorecard2";
+import Scorecard3 from "./scorecardModals/Scorecard3";
+import Scorecard4 from "./scorecardModals/Scorecard4";
+import Scorecard5 from "./scorecardModals/Scorecard5";
+import Scorecard6 from "./scorecardModals/Scorecard6";
+import Scorecard7 from "./scorecardModals/Scorecard7";
+import Scorecard8 from "./scorecardModals/Scorecard8";
+import Scorecard9 from "./scorecardModals/Scorecard9";
 
 const flagwinners = [
   {
@@ -71,6 +80,16 @@ const flagwinners = [
 ];
 
 const FlagRecipients = () => {
+const [openModal1, setOpenModal1] = useState(false)
+const [openModal2, setOpenModal2] = useState(false)
+const [openModal3, setOpenModal3] = useState(false)
+const [openModal4, setOpenModal4] = useState(false)
+const [openModal5, setOpenModal5] = useState(false)
+const [openModal6, setOpenModal6] = useState(false)
+const [openModal7, setOpenModal7] = useState(false)
+const [openModal8, setOpenModal8] = useState(false)
+const [openModal9, setOpenModal9] = useState(false)
+
   return (
     <div className="flagRecipientPage">
       <SiteNavBar />
@@ -92,6 +111,51 @@ const FlagRecipients = () => {
             </Card>
           );
         })}
+        <button className="openModalBtn" onClick={() => setOpenModal1(true)} >
+            Scorecard
+        </button>
+        {openModal1 && <Scorecard1 closeModal1={setOpenModal1} />}
+
+        <button className="openModalBtn" onClick={() => setOpenModal2(true)} >
+            Scorecard
+        </button>
+        {openModal2 && <Scorecard2 closeModal1={setOpenModal2} />}
+
+        <button className="openModalBtn" onClick={() => setOpenModal3(true)} >
+            Scorecard
+        </button>
+        {openModal3 && <Scorecard3 closeModal1={setOpenModal3} />}
+
+        <button className="openModalBtn" onClick={() => setOpenModal4(true)} >
+            Scorecard
+        </button>
+        {openModal4 && <Scorecard4 closeModal1={setOpenModal4} />}
+
+        <button className="openModalBtn" onClick={() => setOpenModal5(true)} >
+            Scorecard
+        </button>
+        {openModal5 && <Scorecard5 closeModal1={setOpenModal5} />}
+
+        <button className="openModalBtn" onClick={() => setOpenModal6(true)} >
+            Scorecard
+        </button>
+        {openModal6 && <Scorecard6 closeModal1={setOpenModal6} />}
+
+        <button className="openModalBtn" onClick={() => setOpenModal7(true)} >
+            Scorecard
+        </button>
+        {openModal7 && <Scorecard7 closeModal1={setOpenModal7} />}
+
+        <button className="openModalBtn" onClick={() => setOpenModal8(true)} >
+            Scorecard
+        </button>
+        {openModal8 && <Scorecard8 closeModal1={setOpenModal8} />}
+
+        <button className="openModalBtn" onClick={() => setOpenModal9(true)} >
+            Scorecard
+        </button>
+        {openModal9 && <Scorecard9 closeModal1={setOpenModal9} />}
+
       </div>
     </div>
   );
