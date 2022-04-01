@@ -80,15 +80,15 @@ const flagwinners = [
 ];
 
 const FlagRecipients = () => {
-const [openModal1, setOpenModal1] = useState(false)
-const [openModal2, setOpenModal2] = useState(false)
-const [openModal3, setOpenModal3] = useState(false)
-const [openModal4, setOpenModal4] = useState(false)
-const [openModal5, setOpenModal5] = useState(false)
-const [openModal6, setOpenModal6] = useState(false)
-const [openModal7, setOpenModal7] = useState(false)
-const [openModal8, setOpenModal8] = useState(false)
-const [openModal9, setOpenModal9] = useState(false)
+  const [openModal1, setOpenModal1] = useState(false);
+  const [openModal2, setOpenModal2] = useState(false);
+  const [openModal3, setOpenModal3] = useState(false);
+  const [openModal4, setOpenModal4] = useState(false);
+  const [openModal5, setOpenModal5] = useState(false);
+  const [openModal6, setOpenModal6] = useState(false);
+  const [openModal7, setOpenModal7] = useState(false);
+  const [openModal8, setOpenModal8] = useState(false);
+  const [openModal9, setOpenModal9] = useState(false);
 
   return (
     <div className="flagRecipientPage">
@@ -111,52 +111,52 @@ const [openModal9, setOpenModal9] = useState(false)
             </Card>
           );
         })}
-        <button className="openModalBtn" onClick={() => setOpenModal1(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal1(true)}>
+          Scorecard
         </button>
         {openModal1 && <Scorecard1 closeModal1={setOpenModal1} />}
 
-        <button className="openModalBtn" onClick={() => setOpenModal2(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal2(true)}>
+          Scorecard
         </button>
-        {openModal2 && <Scorecard2 closeModal1={setOpenModal2} />}
+        {openModal2 && <Scorecard2 closeModal2={setOpenModal2} />}
 
-        <button className="openModalBtn" onClick={() => setOpenModal3(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal3(true)}>
+          Scorecard
         </button>
-        {openModal3 && <Scorecard3 closeModal1={setOpenModal3} />}
+        {openModal3 && <Scorecard3 closeModal3={setOpenModal3} />}
 
-        <button className="openModalBtn" onClick={() => setOpenModal4(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal4(true)}>
+          Scorecard
         </button>
-        {openModal4 && <Scorecard4 closeModal1={setOpenModal4} />}
+        {openModal4 && <Scorecard4 closeModal4={setOpenModal4} />}
 
-        <button className="openModalBtn" onClick={() => setOpenModal5(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal5(true)}>
+          Scorecard
         </button>
-        {openModal5 && <Scorecard5 closeModal1={setOpenModal5} />}
+        {openModal5 && <Scorecard5 closeModal5={setOpenModal5} />}
 
-        <button className="openModalBtn" onClick={() => setOpenModal6(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal6(true)}>
+          Scorecard
         </button>
-        {openModal6 && <Scorecard6 closeModal1={setOpenModal6} />}
+        {openModal6 && <Scorecard6 closeModal6={setOpenModal6} />}
 
-        <button className="openModalBtn" onClick={() => setOpenModal7(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal7(true)}>
+          Scorecard
         </button>
-        {openModal7 && <Scorecard7 closeModal1={setOpenModal7} />}
+        {openModal7 && <Scorecard7 closeModal7={setOpenModal7} />}
 
-        <button className="openModalBtn" onClick={() => setOpenModal8(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal8(true)}>
+          Scorecard
         </button>
-        {openModal8 && <Scorecard8 closeModal1={setOpenModal8} />}
+        {openModal8 && <Scorecard8 closeModal8={setOpenModal8} />}
 
-        <button className="openModalBtn" onClick={() => setOpenModal9(true)} >
-            Scorecard
+        <button className="openModalBtn" onClick={() => setOpenModal9(true)}>
+          Scorecard
         </button>
-        {openModal9 && <Scorecard9 closeModal1={setOpenModal9} />}
-
+        {openModal9 && <Scorecard9 closeModal9={setOpenModal9} />}
       </div>
+      <div></div>
     </div>
   );
 };

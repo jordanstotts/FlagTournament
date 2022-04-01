@@ -30,7 +30,7 @@ const Home = () => {
                 <NavLink id="dropdownWords" href="/PlayerBios">Player Bios</NavLink>
               </NavItem>
               <NavItem className="homeNavDropdown">
-                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
+                <NavLink id="dropdownWords" href="/FlagRecipients">
                   Flag Recipients
                 </NavLink>
               </NavItem>

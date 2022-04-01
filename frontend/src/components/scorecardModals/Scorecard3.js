@@ -3,7 +3,7 @@ import scorecard3 from "../scorecardModals/scorecard2015.jpg";
 import "./Scorecard.css";
 
 
-const Scorecard3 = () => {
+const Scorecard3 = ({closeModal3}) => {
   return (
     <div className="modalBackground">
       <div className="modalContainer">
