@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home';
 import PlayerBios from './components/PlayerBios';
 import FlagRecipients from './components/FlagRecipients';
+import Rules from './components/Rules';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/PlayerBios' element={<PlayerBios />} />
         <Route path='/FlagRecipients' element={<FlagRecipients />} />
+        <Route path='/Rules' element={<Rules />} />
       </Routes>
     </div>
   );

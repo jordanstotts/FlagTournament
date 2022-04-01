@@ -35,22 +35,22 @@ const Home = () => {
                 </NavLink>
               </NavItem>
               <NavItem className="homeNavDropdown">
-                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
+                <NavLink id="dropdownWords" href="/BootRecipients">
                   Boot Recipients
                 </NavLink>
               </NavItem>
               <NavItem className="homeNavDropdown">
-                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
+                <NavLink id="dropdownWords" href="/InsightToNextYear">
                   Insight To Next Year
                 </NavLink>
               </NavItem>
               <NavItem className="homeNavDropdown">
-                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
+                <NavLink id="dropdownWords" href="/History">
                   History
                 </NavLink>
               </NavItem>
               <NavItem className="homeNavDropdown">
-                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
+                <NavLink id="dropdownWords" href="/Rules">
                   Rules
                 </NavLink>
               </NavItem>
