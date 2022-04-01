@@ -10,46 +10,47 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import flagLogo from '../FlagPics/flagLogo.png'
+import flagLogo from "../FlagPics/flagLogo.png";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+
   return (
-    <>
+    <div className="homeLayout">
       <div>
         <Navbar color="faded" light>
-          <NavbarToggler className="me-2" onClick={() => setIsOpen(!isOpen)} />
-          <NavbarBrand className="me-auto" href="/">
-            The Annual "Where's My Ball" Tournament
+          <NavbarToggler className="hamburger" onClick={() => setIsOpen(!isOpen)} />
+          <NavbarBrand className="homeHeader" href="/">
+            <p className="homeHeaderWords">The Annual "Where's My Ball" Tournament</p>
           </NavbarBrand>
           <Collapse isOpen={isOpen} navbar>
             <Nav navbar>
-              <NavItem>
-                <NavLink href="/components/">Player Bios</NavLink>
+              <NavItem className="homeNavDropdown">
+                <NavLink id="dropdownWords" href="/components/">Player Bios</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavItem className="homeNavDropdown">
+                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
                   Flag Recipients
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavItem className="homeNavDropdown">
+                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
                   Boot Recipients
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavItem className="homeNavDropdown">
+                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
                   Insight To Next Year
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavItem className="homeNavDropdown">
+                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
                   History
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavItem className="homeNavDropdown">
+                <NavLink id="dropdownWords" href="https://github.com/reactstrap/reactstrap">
                   Rules
                 </NavLink>
               </NavItem>
@@ -57,8 +58,9 @@ const Home = () => {
           </Collapse>
         </Navbar>
       </div>
-      <img src={flagLogo} />
-    </>
+      <img src={flagLogo} alt='flag logo' className="homeFlagLogo" />
+      <p className="homeFlagQuote">It's not about winning the tournament, it's about making sure you don't lose</p>
+    </div>
   );
 };
 
