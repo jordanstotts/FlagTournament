@@ -12,6 +12,16 @@ import Scorecard6 from "./scorecardModals/Scorecard6";
 import Scorecard7 from "./scorecardModals/Scorecard7";
 import Scorecard8 from "./scorecardModals/Scorecard8";
 import Scorecard9 from "./scorecardModals/Scorecard9";
+import flag2013 from "../FlagPics/flagWinner2013.jpg";
+import flag2014 from "../FlagPics/flagWinner2014.jpg";
+import flag2015 from "../FlagPics/flagWinner2015.jpg";
+import flag2016 from "../FlagPics/flagWinner2016.jpg";
+import flag2017 from "../FlagPics/flagWinner2017.jpg";
+import flag2018 from "../FlagPics/flagWinner2018.jpg";
+import flag2019 from "../FlagPics/flagWinner2019.jpg";
+import flag2020 from "../FlagPics/flagWinner2020.jpg";
+import flag2021 from "../FlagPics/flagWinner2021.jpg";
+
 
 const flagwinners = [
   {
@@ -19,63 +29,63 @@ const flagwinners = [
     name: "Grant Luther",
     course: "Toad Valley",
     year: 2013,
-    flagpic: "https://live.staticflickr.com/65535/51894015063_ba67d2e28f_m.jpg",
+    flagpic: flag2013,
   },
   {
     id: 2,
     name: "Derrick Wiley",
     course: "The Legacy Golf Club",
     year: 2014,
-    flagpic: "https://live.staticflickr.com/65535/51892968652_04513f3d13_m.jpg",
+    flagpic: flag2014,
   },
   {
     id: 3,
     name: "Grant Luther",
     course: "Honey Creek Golf Club",
     year: 2015,
-    flagpic: "https://live.staticflickr.com/65535/51892968587_a241095a91_m.jpg",
+    flagpic: flag2015,
   },
   {
     id: 4,
     name: "Derrick Wiley",
     course: "Bos Landen Golf Club",
     year: 2016,
-    flagpic: "https://live.staticflickr.com/65535/51892968612_0052b67d16_m.jpg",
+    flagpic: flag2016,
   },
   {
     id: 5,
     name: "Connor Girkin",
     course: "Blue Top Ridge at Riverside",
     year: 2017,
-    flagpic: "https://live.staticflickr.com/65535/51894014963_602370f1db_m.jpg",
+    flagpic: flag2017,
   },
   {
     id: 6,
     name: "Ryan Biegger",
     course: "Tournament Club of Iowa",
     year: 2018,
-    flagpic: "https://live.staticflickr.com/65535/51894014923_4c9aa596e5_m.jpg",
+    flagpic: flag2018,
   },
   {
     id: 7,
     name: "Ryan Biegger",
     course: "Amana Colonies Golf Club",
     year: 2019,
-    flagpic: "https://live.staticflickr.com/65535/51894014893_3fc346dc82_m.jpg",
+    flagpic: flag2019,
   },
   {
     id: 8,
     name: "Derrick Wiley",
     course: "Whitebirch at Breezy Point",
     year: 2020,
-    flagpic: "https://live.staticflickr.com/65535/51893926561_e632133169_m.jpg",
+    flagpic: flag2020,
   },
   {
     id: 9,
     name: "Derrick Wiley",
     course: "Quarry Oaks Golf CLub",
     year: 2021,
-    flagpic: "https://live.staticflickr.com/65535/51894014833_4e4fe8d27a_m.jpg",
+    flagpic: flag2021,
   },
 ];
 
