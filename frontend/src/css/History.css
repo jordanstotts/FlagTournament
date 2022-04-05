@@ -6,6 +6,46 @@
 /* font-family: 'Oswald', sans-serif; */
 
 /* ============================== Desktop Version ============================== */
+.historyPage {
+  background-color: #242222;
+}
+
+.historyLayout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 85%;
+  width: 90%;
+  margin: auto;
+  color: #f5f5f5;
+}
+
+.historyHeader {
+  color: #f5f5f5;
+  font-family: "Oleo Script", cursive;
+  font-size: 48pt;
+  text-align: center;
+  color: #efb1f2;
+  margin-top: 65px;
+}
+
+.historyContent {
+  text-align: center;
+  height: 200px;
+  width: 800px;
+  display: block;
+  margin: 75px auto auto auto;
+  font-size: 14pt;
+  font-family: "Oswald", sans-serif;
+  line-height: 2;
+}
+
+.historyFlagLogo {
+  height: 400px;
+  width: 300px;
+  display: block;
+  margin: 600px auto 100px auto;
+}
 
 /* ============================== Mobile Version ============================== */
 @media (max-width: 915px) {

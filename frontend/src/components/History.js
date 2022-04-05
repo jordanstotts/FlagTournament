@@ -37,14 +37,14 @@ const History = () => {
           <p>
             Starting in 2022, a new rule was introduced to include the golf God
             himself. The one and only, Mr. Austin Howe. Now in order to win the
-            boot your handicap will come in to play. Our most recent handicaps
-            will be taken from The Grint app the day of the tournament and will
-            be used to determine the winner of what some say is one of the most
-            sought after trophies in golf. Austin has joined us in years past
-            but does in fact not suck at golf ever, so this rule allows for a
-            much more competitive playing field (even though he will still
-            probably win). Handicapped scores will not be used for the flag...if
-            you suck, you suck.
+            boot or recieve the flag your handicap will come in to play. Our
+            most recent handicaps will be taken from The Grint app the day of
+            the tournament. They will be used to determine who goes home with
+            what some say is one of the most sought after trophies in golf as
+            well as who goes home with the dreaded "I SUCK AT GOLF" flag. Austin
+            has joined us in years past but does in fact not suck at golf ever,
+            so this rule allows for a much more competitive playing field (even
+            though he will still probably win the boot).
           </p>
         </div>
         <img className="historyFlagLogo" src={flagLogo} alt="flag logo" />

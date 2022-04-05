@@ -8,7 +8,7 @@ const InsightToNextYear = () => {
     <div className="predictionPage">
       <SiteNavBar />
       <h1 className="predictionsHeader">Insight To Next Year</h1>
-      <div>
+      <div className="predictionLayout">
         <div className="ourPredictions">
           <p id="predictionName">Austin's prediction:</p>
           <div>
