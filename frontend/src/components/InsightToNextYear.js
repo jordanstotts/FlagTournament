@@ -1,15 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/InsightToNextYear.css";
 import SiteNavBar from "./SiteNavBar";
-import PredictionForm from "./PredictionForm";
 
 const InsightToNextYear = () => {
   return (
     <div className="predictionPage">
       <SiteNavBar />
       <h1 className="predictionsHeader">Insight To Next Year</h1>
-      <div className="predictionsLayout">
+      <div>
         <div className="ourPredictions">
           <p id="predictionName">Austin's prediction:</p>
           <div>
@@ -57,12 +56,12 @@ const InsightToNextYear = () => {
         <div className="ourPredictions">
           <p id="predictionName">Jordan's prediction:</p>
           <div>
-            <p id="prediction">Boot: Grant</p>
-            <p id="prediction">2nd: Jordan</p>
-            <p id="prediction">3rd: Ryan</p>
-            <p id="prediction">4th: Derrick</p>
-            <p id="prediction">5th: Connor</p>
-            <p id="prediction">Flag: Grant</p>
+            <p id="prediction">Boot: Jordan</p>
+            <p id="prediction">2nd: Austin</p>
+            <p id="prediction">3rd: Derrick</p>
+            <p id="prediction">4th: Ryan</p>
+            <p id="prediction">5th: Grant</p>
+            <p id="prediction">Flag: Connor</p>
           </div>
         </div>
         <div className="ourPredictions">
