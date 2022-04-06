@@ -2,6 +2,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
 
 /* ============================== Desktop Version ============================== */
+.flagRecipientPage {
+  background-color: #242222;
+}
+
+.flagRecipientLayout {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 90px;
+  width: 1500px;
+  height: 500px;
+  margin: 75px auto 1175px auto; */
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.flagRecipientHeader {
+  margin-bottom: 4rem;
+  font-family: "Oleo Script", cursive;
+  font-size: 48pt;
+  text-align: center;
+  color: #efb1f2;
+  margin-top: 100px;
+}
+
+.flagRecipientTitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.flagRecipientCard {
+  box-shadow: 0 1px 1px #c4c4c4, 0 2px 2px #c4c4c4, 0 4px 4px #c4c4c4,
+    0 8px 8px #c4c4c4, 0 10px 10px #c4c4c4;
+  background-color: #e7e7e7d0;
+  margin: auto 5rem 5rem 5rem;
+  /* height: 450px; */
+  width: 367px;
+}
+
+.flagRecipientPic {
+  height: 300px;
+  width: 365px;
+}
+
+/* .scorecardPic {
+  height: 300px;
+  width: 300px;
+} */
 
 /* ============================== Mobile Version ============================== */
 @media (max-width: 915px) {
