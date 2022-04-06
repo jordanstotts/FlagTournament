@@ -26,6 +26,7 @@
   font-weight: bold;
   font-size: 14pt;
   text-align: center;
+  padding-top: 10px;
 }
 
 .flagRecipientCard {
@@ -41,20 +42,11 @@
   width: 365px;
 }
 
-/* .modalGroup {
+.openModalBtn {
   display: flex;
   justify-content: space-evenly;
-  margin: 1rem 15rem auto 15rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
   flex-wrap: wrap;
-  flex-direction: row;
-  width: 1000px;
-} */
-/* .openModalBtn {
-  position: 
-} */
-
+}
 
 /* ============================== Mobile Version ============================== */
 @media (max-width: 915px) {
@@ -89,6 +81,7 @@
     font-weight: bold;
     font-size: 14pt;
     text-align: center;
+    padding-top: 10px;
   }
 
   .flagRecipientPic {
@@ -96,14 +89,9 @@
     width: 365px;
   }
 
-  /* .modalGroup {
+  .openModalBtn {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-  } */
-  /* .openModalBtn {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  } */
+  }
 }
