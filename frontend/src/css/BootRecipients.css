@@ -8,6 +8,9 @@
 /* ============================== Desktop Version ============================== */
 
 .bootWinnerLayout {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .bootWinnerCard {
@@ -15,27 +18,38 @@
   box-shadow: 0 1px 1px #c4c4c4, 0 2px 2px #c4c4c4, 0 4px 4px #c4c4c4,
     0 8px 8px #c4c4c4, 0 10px 10px #c4c4c4;
   background-color: #e7e7e7d0;
+
+  width: 367px;
+
+  margin-top: 2.5rem;
 }
 
 .bootHeader {
-  color: #f5f5f5;
+  margin-bottom: 4rem;
   font-family: "Oleo Script", cursive;
-  font-size: 38pt;
+  font-size: 48pt;
+  text-align: center;
+  color: #efb1f2;
+  margin-top: 100px;
 }
 
 .preBoot {
   margin-top: 2.5rem;
   color: #f5f5f5;
+  display: flex;
+  justify-content: center;
 }
 
 .bootWinnerTitle {
   font-weight: bold;
   font-family: "Oswald", sans-serif;
   font-size: 12pt;
+  text-align: center;
 }
 
 .bootWinnerPic {
   height: 22rem;
+  width: 365px;
 }
 
 .bootWinners {
@@ -46,14 +60,9 @@
 /* ============================== Mobile Version ============================== */
 @media (max-width: 915px) {
   .bootWinnerLayout {
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap; */
-
     display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   .bootWinnerCard {
@@ -61,8 +70,8 @@
     box-shadow: 0 1px 1px #c4c4c4, 0 2px 2px #c4c4c4, 0 4px 4px #c4c4c4,
       0 8px 8px #c4c4c4, 0 10px 10px #c4c4c4;
     background-color: #e7e7e7d0;
-    height: 550px;
-    width: 750px;
+    max-height: 550px;
+    max-width: 350px;
   }
 
   .bootHeader {
@@ -89,7 +98,7 @@
 
   .bootWinnerPic {
     height: 300px;
-    width: 365px;
+    width: auto;
   }
 
   .bootWinners {

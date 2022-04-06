@@ -7,15 +7,6 @@
 }
 
 .flagRecipientLayout {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  grid-column-gap: 50px;
-  grid-row-gap: 90px;
-  width: 1500px;
-  height: 500px;
-  margin: 75px auto 1175px auto; */
-
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -42,7 +33,6 @@
     0 8px 8px #c4c4c4, 0 10px 10px #c4c4c4;
   background-color: #e7e7e7d0;
   margin: auto 5rem 5rem 5rem;
-  /* height: 450px; */
   width: 367px;
 }
 
@@ -51,10 +41,20 @@
   width: 365px;
 }
 
-/* .scorecardPic {
-  height: 300px;
-  width: 300px;
+/* .modalGroup {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 15rem auto 15rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1000px;
 } */
+/* .openModalBtn {
+  position: 
+} */
+
 
 /* ============================== Mobile Version ============================== */
 @media (max-width: 915px) {
@@ -95,4 +95,15 @@
     height: 300px;
     width: 365px;
   }
+
+  /* .modalGroup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  } */
+  /* .openModalBtn {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  } */
 }

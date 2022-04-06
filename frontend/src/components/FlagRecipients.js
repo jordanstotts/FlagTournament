@@ -117,10 +117,13 @@ const FlagRecipients = () => {
                 className="flagRecipientPic"
                 alt="flag recipient"
                 src={flagwinners.flagpic}
-              />
+                />
             </Card>
           );
         })}
+        </div>
+          <div className="modalGroup">
+
         <button className="openModalBtn" onClick={() => setOpenModal1(true)}>
           Scorecard
         </button>
@@ -165,7 +168,7 @@ const FlagRecipients = () => {
           Scorecard
         </button>
         {openModal9 && <Scorecard9 closeModal9={setOpenModal9} />}
-      </div>
+          </div>
       <div></div>
     </div>
   );
