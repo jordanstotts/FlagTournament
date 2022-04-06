@@ -15,19 +15,25 @@ import flagLogo from "../FlagPics/flagLogo.png";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-
   return (
     <div className="homeLayout">
       <div>
         <Navbar color="faded" light>
-          <NavbarToggler className="hamburger" onClick={() => setIsOpen(!isOpen)} />
+          <NavbarToggler
+            className="hamburger"
+            onClick={() => setIsOpen(!isOpen)}
+          />
           <NavbarBrand className="homeHeader" href="/">
-            <p className="homeHeaderWords">The Annual "Where's My Ball" Tournament</p>
+            <p className="homeHeaderWords">
+              The Annual "Where's My Ball" Tournament
+            </p>
           </NavbarBrand>
           <Collapse isOpen={isOpen} navbar>
             <Nav navbar>
               <NavItem className="homeNavDropdown">
-                <NavLink id="dropdownWords" href="/PlayerBios">Player Bios</NavLink>
+                <NavLink id="dropdownWords" href="/PlayerBios">
+                  Player Bios
+                </NavLink>
               </NavItem>
               <NavItem className="homeNavDropdown">
                 <NavLink id="dropdownWords" href="/FlagRecipients">
@@ -58,8 +64,13 @@ const Home = () => {
           </Collapse>
         </Navbar>
       </div>
-      <img src={flagLogo} alt='flag logo' className="homeFlagLogo" />
-      <p className="homeFlagQuote">It's not about winning the tournament, it's about making sure you don't lose</p>
+      <div className="desktopLogo">
+        <img src={flagLogo} alt="flag logo" className="homeFlagLogo" />
+      </div>
+      <p className="homeFlagQuote">
+        It's not about winning the tournament, it's about making sure you don't
+        lose
+      </p>
     </div>
   );
 };
