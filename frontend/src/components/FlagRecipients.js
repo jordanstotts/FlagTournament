@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/FlagRecipients.css";
 import SiteNavBar from "./SiteNavBar";
-import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
 import Scorecard1 from "./scorecardModals/Scorecard1";
 import Scorecard2 from "./scorecardModals/Scorecard2";
 import Scorecard3 from "./scorecardModals/Scorecard3";
@@ -22,79 +21,6 @@ import flag2019 from "../FlagPics/flagWinner2019.jpg";
 import flag2020 from "../FlagPics/flagWinner2020.jpg";
 import flag2021 from "../FlagPics/flagWinner2021.jpg";
 
-const flagwinners = [
-  {
-    id: 1,
-    name: "Grant Luther",
-    course: "Toad Valley",
-    year: 2013,
-    flagpic: flag2013,
-  },
-  {
-    id: 2,
-    name: "Derrick Wiley",
-    course: "The Legacy Golf Club",
-    year: 2014,
-    flagpic: flag2014,
-  },
-  {
-    id: 3,
-    name: "Grant Luther",
-    course: "Honey Creek Golf Club",
-    year: 2015,
-    flagpic: flag2015,
-  },
-  {
-    id: 4,
-    name: "Derrick Wiley",
-    course: "Bos Landen Golf Club",
-    year: 2016,
-    flagpic: flag2016,
-  },
-  {
-    id: 5,
-    name: "Connor Girkin",
-    course: "Blue Top Ridge at Riverside",
-    year: 2017,
-    flagpic: flag2017,
-  },
-  {
-    id: 6,
-    name: "Ryan Biegger",
-    course: "Tournament Club of Iowa",
-    year: 2018,
-    flagpic: flag2018,
-  },
-  {
-    id: 7,
-    name: "Ryan Biegger",
-    course: "Amana Colonies Golf Club",
-    year: 2019,
-    flagpic: flag2019,
-  },
-  {
-    id: 8,
-    name: "Derrick Wiley",
-    course: "Whitebirch at Breezy Point",
-    year: 2020,
-    flagpic: flag2020,
-  },
-  {
-    id: 9,
-    name: "Derrick Wiley",
-    course: "Quarry Oaks Golf Club",
-    year: 2021,
-    flagpic: flag2021,
-  },
-  {
-    id: 10,
-    name: null,
-    course: null,
-    year: null,
-    flagpic: null,
-  },
-];
-
 const FlagRecipients = () => {
   const [openModal1, setOpenModal1] = useState(false);
   const [openModal2, setOpenModal2] = useState(false);
@@ -111,22 +37,6 @@ const FlagRecipients = () => {
       <SiteNavBar />
       <h1 className="flagRecipientHeader">Flag Recipients</h1>
       <div className="flagRecipientLayout">
-        {/* {flagwinners.map((flagwinners) => {
-          return (
-            <Card className="flagRecipientCard">
-              <CardBody>
-                <CardTitle className="flagRecipientTitle">
-                  {flagwinners.name} - {flagwinners.course} - {flagwinners.year}
-                </CardTitle>
-              </CardBody>
-              <CardImg
-                className="flagRecipientPic"
-                alt="flag recipient"
-                src={flagwinners.flagpic}
-              />
-            </Card>
-          );
-        })} */}
         <div className="flagRecipientCard">
           <div className="flagRecipientTitle">
             <p>Grant Luther</p>
@@ -138,12 +48,11 @@ const FlagRecipients = () => {
             alt="flag recipient"
             src={flag2013}
           />
-         
+
           <button className="openModalBtn" onClick={() => setOpenModal1(true)}>
             Scorecard
           </button>
           {openModal1 && <Scorecard1 closeModal1={setOpenModal1} />}
-
         </div>
 
         <div className="flagRecipientCard">
@@ -160,7 +69,7 @@ const FlagRecipients = () => {
           <button className="openModalBtn" onClick={() => setOpenModal2(true)}>
             Scorecard
           </button>
-          {openModal2 && <Scorecard2 closeModal1={setOpenModal2} />}
+          {openModal2 && <Scorecard2 closeModal2={setOpenModal2} />}
         </div>
 
         <div className="flagRecipientCard">
@@ -281,55 +190,7 @@ const FlagRecipients = () => {
           </button>
           {openModal9 && <Scorecard9 closeModal9={setOpenModal9} />}
         </div>
-
       </div>
-
-
-      {/* <button className="openModalBtn" onClick={() => setOpenModal1(true)}>
-        Scorecard
-      </button>
-      {openModal1 && <Scorecard1 closeModal1={setOpenModal1} />}
-
-      <button className="openModalBtn" onClick={() => setOpenModal2(true)}>
-        Scorecard
-      </button>
-      {openModal2 && <Scorecard2 closeModal2={setOpenModal2} />}
-
-      <button className="openModalBtn" onClick={() => setOpenModal3(true)}>
-        Scorecard
-      </button>
-      {openModal3 && <Scorecard3 closeModal3={setOpenModal3} />}
-
-      <button className="openModalBtn" onClick={() => setOpenModal4(true)}>
-        Scorecard
-      </button>
-      {openModal4 && <Scorecard4 closeModal4={setOpenModal4} />}
-
-      <button className="openModalBtn" onClick={() => setOpenModal5(true)}>
-        Scorecard
-      </button>
-      {openModal5 && <Scorecard5 closeModal5={setOpenModal5} />}
-
-      <button className="openModalBtn" onClick={() => setOpenModal6(true)}>
-        Scorecard
-      </button>
-      {openModal6 && <Scorecard6 closeModal6={setOpenModal6} />}
-
-      <button className="openModalBtn" onClick={() => setOpenModal7(true)}>
-        Scorecard
-      </button>
-      {openModal7 && <Scorecard7 closeModal7={setOpenModal7} />}
-
-      <button className="openModalBtn" onClick={() => setOpenModal8(true)}>
-        Scorecard
-      </button>
-      {openModal8 && <Scorecard8 closeModal8={setOpenModal8} />}
-
-      <button className="openModalBtn" onClick={() => setOpenModal9(true)}>
-        Scorecard
-      </button>
-      {openModal9 && <Scorecard9 closeModal9={setOpenModal9} />}
-      <div></div> */}
     </div>
   );
 };
