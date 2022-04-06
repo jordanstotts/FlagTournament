@@ -45,12 +45,12 @@ const InsightToNextYear = () => {
         <div className="ourPredictions">
           <p id="predictionName">Grant's prediction:</p>
           <div>
-            <p id="prediction">Boot: Jordan</p>
-            <p id="prediction">2nd: Austin</p>
+            <p id="prediction">Boot: Austin</p>
+            <p id="prediction">2nd: Grant</p>
             <p id="prediction">3rd: Ryan</p>
-            <p id="prediction">4th: Derrick</p>
-            <p id="prediction">5th: Connor</p>
-            <p id="prediction">Flag: Grant</p>
+            <p id="prediction">4th: Connor</p>
+            <p id="prediction">5th: Derrick</p>
+            <p id="prediction">Flag: Jordan</p>
           </div>
         </div>
         <div className="ourPredictions">
