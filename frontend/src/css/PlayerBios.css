@@ -4,7 +4,7 @@
 
 
 /* ============================== Desktop Version ============================== */
-/* .playerBioPage {
+.playerBioPage {
     background-color: #242222;
   }
 
@@ -14,19 +14,26 @@
 }
 
 .bio {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 40px;
   width: 1500px;
   height: auto;
-  margin: 75px auto 100px auto;
+  margin: 75px auto 100px auto; */
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .playerBioHeader {
-  color: #f5f5f5;
+  margin-bottom: 4rem;
   font-family: "Oleo Script", cursive;
-  font-size: 38pt;
+  font-size: 48pt;
+  text-align: center;
+  color: #efb1f2;
+  margin-top: 100px;
 }
 
 .playerCards {
@@ -98,7 +105,7 @@
 .playerCardBody {
   justify-content: center;
   margin: auto;
-} */
+}
 
 
 

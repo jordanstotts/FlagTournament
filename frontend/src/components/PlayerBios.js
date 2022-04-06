@@ -13,24 +13,6 @@ import { Card, CardBody, CardTitle, CardText, CardLink } from "reactstrap";
 const players = [
   {
     id: 1,
-    name: "Jordan Stotts",
-    social: [
-      {
-        twitter: "https://twitter.com/JordanStotts15",
-        ig: "https://www.instagram.com/jordanstotts15/",
-        facebook: "https://www.facebook.com/jordan.stotts",
-      },
-    ],
-    age: 28,
-    occupation: "Software Engineer",
-    alma_mater: "University of Sioux Falls",
-    flag_years: "0",
-    handicap: 12.2,
-    boot_years: "2014 | 2015",
-    picture: jordan,
-  },
-  {
-    id: 2,
     name: "Derrick Wiley",
     social: [
       {
@@ -48,7 +30,7 @@ const players = [
     picture: derrick,
   },
   {
-    id: 3,
+    id: 2,
     name: "Ryan Biegger",
     social: [
       {
@@ -64,6 +46,24 @@ const players = [
     handicap: 13.1,
     boot_years: "2013 | 2016 | 2017",
     picture: ryan,
+  },
+  {
+    id: 3,
+    name: "Jordan Stotts",
+    social: [
+      {
+        twitter: "https://twitter.com/JordanStotts15",
+        ig: "https://www.instagram.com/jordanstotts15/",
+        facebook: "https://www.facebook.com/jordan.stotts",
+      },
+    ],
+    age: 28,
+    occupation: "Software Engineer",
+    alma_mater: "University of Sioux Falls",
+    flag_years: "0",
+    handicap: 12.2,
+    boot_years: "2014 | 2015",
+    picture: jordan,
   },
   {
     id: 4,
