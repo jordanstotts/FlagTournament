@@ -18,6 +18,7 @@ const SiteNavBar = () => {
         <NavLink className="siteNavLink" href="/InsightToNextYear">Insight To Next Year</NavLink>
         <NavLink className="siteNavLink" href="History">History</NavLink>
         <NavLink className="siteNavLink" href="/Rules">Rules</NavLink>
+        <NavLink className="siteNavLink" href="/Gallery">Gallery</NavLink>
         </div>
       </Nav>
     </div>

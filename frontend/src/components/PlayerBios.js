@@ -5,7 +5,7 @@ import jordan from "../FlagPics/jordanBioPic.jpg";
 import derrick from "../FlagPics/derrickBioPic.jpg";
 import ryan from "../FlagPics/ryanBioPic.png";
 import connor from "../FlagPics/connorBioPic.jpg";
-import grant from "../FlagPics/grantBioPic.jpg";
+import grant from "../FlagPics/bootWinner2021.jpg";
 import austin from "../FlagPics/austinBioPic.jpg";
 import SiteNavBar from "./SiteNavBar";
 import { Card, CardBody, CardTitle, CardText, CardLink } from "reactstrap";
@@ -22,7 +22,7 @@ const players = [
       },
     ],
     age: 28,
-    occupation: "UX Engineer at AdCellerant",
+    occupation: "Senior UX Engineer",
     alma_mater: "Iowa State University",
     flag_years: "2014 | 2016 | 2020 | 2021",
     handicap: 19.5,
@@ -40,7 +40,7 @@ const players = [
       },
     ],
     age: 27,
-    occupation: "Senior Associate (Accounting) at Embark",
+    occupation: "CPA | Senior Associate at Embark",
     alma_mater: "University of Northern Iowa",
     flag_years: "2018 | 2019",
     handicap: 13.1,
@@ -94,7 +94,7 @@ const players = [
       },
     ],
     age: 28,
-    occupation: "Event Ops Coordinator at ISU Athletics",
+    occupation: "Assoc. Director of Events at ISU Athletics",
     alma_mater: "Iowa State University",
     flag_years: "2013 | 2015",
     handicap: 2.6,
@@ -112,7 +112,8 @@ const players = [
       },
     ],
     age: 28,
-    occupation: "Int'l Tax Senior Associate at RSM",
+    occupation: "CPA | Int'l Tax Senior Assoc. at RSM",
+    // occupation: "Int'l Tax Senior Associate at RSM",
     alma_mater: "University of Iowa",
     flag_years: "0",
     handicap: 0.1,

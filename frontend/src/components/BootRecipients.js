@@ -7,6 +7,7 @@ import boot2018 from "../FlagPics/bootWinner2018.jpg";
 import boot2019 from "../FlagPics/bootWinner2019.jpg";
 import boot2020 from "../FlagPics/bootWinner2020.jpg";
 import boot2021 from "../FlagPics/bootWinner2021.jpg";
+import boot2022 from "../FlagPics/bootWinner2022.jpg";
 
 
 const bootwinners = [
@@ -34,9 +35,16 @@ const bootwinners = [
   {
     id: 4,
     name: "Grant Luther",
-    course: "Quarry Oaks Golf CLub",
+    course: "Quarry Oaks Golf Club",
     year: 2021,
     bootpic: boot2021,
+  },
+  {
+    id: 5,
+    name: "Derrick Wiley",
+    course: "Raven Golf Club",
+    year: 2022,
+    bootpic: boot2022,
   },
 ];
 

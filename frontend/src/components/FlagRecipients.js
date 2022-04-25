@@ -11,6 +11,7 @@ import Scorecard6 from "./scorecardModals/Scorecard6";
 import Scorecard7 from "./scorecardModals/Scorecard7";
 import Scorecard8 from "./scorecardModals/Scorecard8";
 import Scorecard9 from "./scorecardModals/Scorecard9";
+import Scorecard10 from "./scorecardModals/Scorecard10";
 import flag2013 from "../FlagPics/flagWinner2013.jpg";
 import flag2014 from "../FlagPics/flagWinner2014.jpg";
 import flag2015 from "../FlagPics/flagWinner2015.jpg";
@@ -20,6 +21,7 @@ import flag2018 from "../FlagPics/flagWinner2018.jpg";
 import flag2019 from "../FlagPics/flagWinner2019.jpg";
 import flag2020 from "../FlagPics/flagWinner2020.jpg";
 import flag2021 from "../FlagPics/flagWinner2021.jpg";
+import flag2022 from "../FlagPics/flagWinner2022.jpg";
 
 const FlagRecipients = () => {
   const [openModal1, setOpenModal1] = useState(false);
@@ -31,6 +33,7 @@ const FlagRecipients = () => {
   const [openModal7, setOpenModal7] = useState(false);
   const [openModal8, setOpenModal8] = useState(false);
   const [openModal9, setOpenModal9] = useState(false);
+  const [openModal10, setOpenModal10] = useState(false);
 
   return (
     <div className="flagRecipientPage">
@@ -189,6 +192,23 @@ const FlagRecipients = () => {
             Scorecard
           </button>
           {openModal9 && <Scorecard9 closeModal9={setOpenModal9} />}
+        </div>
+
+        <div className="flagRecipientCard">
+          <div className="flagRecipientTitle">
+            <p>Connor Girkin</p>
+            <p>Raven Golf Club</p>
+            <p>2022</p>
+          </div>
+          <img
+            className="flagRecipientPic"
+            alt="flag recipient"
+            src={flag2022}
+          />
+          <button className="openModalBtn" onClick={() => setOpenModal10(true)}>
+            Scorecard
+          </button>
+          {openModal10 && <Scorecard10 closeModal10={setOpenModal10} />}
         </div>
       </div>
     </div>
