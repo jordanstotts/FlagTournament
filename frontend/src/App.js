@@ -8,7 +8,7 @@ import BootRecipients from './components/BootRecipients';
 import InsightToNextYear from './components/InsightToNextYear';
 import Rules from './components/Rules';
 import History from './components/History';
-import Gallery from './components/Gallery';
+import PhotoGallery from './components/PhotoGallery';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path='/InsightToNextYear' element={<InsightToNextYear />} />
         <Route path='/History' element={<History />} />
         <Route path='/Rules' element={<Rules />} />
-        <Route path='/Gallery' element={<Gallery />} />
+        <Route path='/Gallery' element={<PhotoGallery />} />
       </Routes>
     </div>
   );

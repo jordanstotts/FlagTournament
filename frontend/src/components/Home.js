@@ -60,6 +60,11 @@ const Home = () => {
                   Rules
                 </NavLink>
               </NavItem>
+              <NavItem className="homeNavDropdown">
+                <NavLink id="dropdownWords" href="/Gallery">
+                  Gallery
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
